@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:whatsapp_clone/model/chatModel.dart';
-import 'package:whatsapp_clone/pages/individualPage.dart';
+import 'file:///C:/Users/HP/AndroidStudioProjects/whatsapp_clone/lib/screens/individualPage.dart';
 
 class CustomCard extends StatelessWidget {
   final ChatModel chatmodel;
@@ -23,7 +23,7 @@ class CustomCard extends StatelessWidget {
         children: [
           ListTile(
               leading: CircleAvatar(
-                backgroundColor: Colors.blueGrey,
+                backgroundColor: Colors.blueGrey[200],
                 radius: 30,
                 child: Icon(
                   chatmodel.isGroup ? Icons.group : Icons.person,
